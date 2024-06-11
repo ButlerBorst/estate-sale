@@ -12,52 +12,8 @@ const ItemsList = ({}: Props) => {
   console.log('isLoading: ', isLoading);
   console.log('data: ', data);
 
-  //   return (
-  //     <div className="h-full mt-20 w-full text-center flex flex-col items-center">
-  //       {data?.map((item: any) => (
-  //         <Link
-  //           className="p-8 flex flex-col items-center"
-  //           href={`/items/${item.id}`}
-  //           key={item.id}
-  //         >
-  //           <span className="w-full text-start">{item.name}</span>
+  if (isLoading) return <div>Loading...</div>;
 
-  //           <span className="w-full text-start">Quality: {item.Condition}</span>
-
-  //           <span className="w-full text-start">
-  //             Percent off original: {item.item_discount}
-  //           </span>
-
-  //           <span className="w-full text-start">
-  //             Sale Price: {item.item_sale_price}
-  //           </span>
-
-  //           <Image
-  //             width={200}
-  //             objectFit="contain"
-  //             height={200}
-  //             alt={item.name}
-  //             src={item.item_image}
-  //           />
-  //           <div
-  //             style={{
-  //               height: 'auto',
-  //               margin: '0 auto',
-  //               maxWidth: 200,
-  //               width: '100%',
-  //             }}
-  //           >
-  //             {/* <QRCode
-  //               size={200}
-  //               style={{ height: '200px', maxWidth: '200px', width: '200px' }}
-  //               value={item.item_link}
-  //               viewBox={`0 0 256 256`}
-  //             /> */}
-  //           </div>
-  //         </Link>
-  //       ))}
-  //     </div>
-  //   );
   return (
     <section className="bg-gray-100 py-12 md:py-16">
       <div className="container mx-auto px-4 md:px-6">
