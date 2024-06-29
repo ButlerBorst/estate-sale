@@ -67,6 +67,47 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'cdn.shoplightspeed.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'aarke.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cb.scene7.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'newellbrands.imgix.net',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.totallyfurniture.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cb2.scene7.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'content.solostove.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'assets.unilogcorp.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'dks.scene7.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.tonal.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.tuftandneedle.com',
+      },
+    
     ],
   },
   reactStrictMode: false,
